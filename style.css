@@ -1,0 +1,42 @@
+.slides {
+    width: 295px;
+    height: 396px;
+    margin-left: 94px;
+}
+ 
+img {
+    display: none;
+}
+ 
+.block {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 1511px ;
+    height: 700px ;
+    background-color: rgba(71, 6, 133, 0.808);
+}
+
+.new {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.modal{
+    display: none;
+    background-color:azure
+}
+.close{
+    float: right;
+    cursor: pointer;
+    display: block;
+    width: 34px;
+    height: 22px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    padding-left: 12px;
+    box-sizing: border-box;
+}
